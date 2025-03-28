@@ -28,15 +28,8 @@ function Header() {
                     <h1 className={`italic text-xl font-bold`}>IPVCE Carlos Marx</h1>
                 </div>
 
-                <nav className="hidden lg:flex space-x-6 ">
-                    <button onClick={ () => navigateClick('/')} className={`text-lg italic hover:text-blue-300`}>Inicio</button>
-                    <button onClick={ () => navigateClick('/orden-interno')} className={`text-lg italic hover:text-blue-300`}>Orden Interno</button>
-                    <button onClick={ () => navigateClick('/ciencia')} className={`text-lg italic hover:text-blue-300`}>Ciencia</button>
-                    <button onClick={ () => navigateClick('/deporte')} className={`text-lg italic hover:text-blue-300`}>Deporte</button>
-                    <button onClick={ () => navigateClick('/cultura')} className={`text-lg italic hover:text-blue-300`}>Cultura</button>
-                    <button onClick={ () => navigateClick('/biblioteca-digital')} className={`text-lg italic hover:text-blue-300`}>Biblioteca Digital</button>
-                </nav>
-
+                
+{/* 
                 <div className={`flex items-center`}>
                     <button onClick={handleClick} className="lg:hidden">
                         <Image
@@ -46,9 +39,10 @@ function Header() {
                             height={40}
                         />
                     </button>
-                </div>
+                </div>*/}
             </div>
 
+            {/*
             {isOpen && (
                 <div className="md:hidden bg-blue-700">
                     <button onClick={ () => navigateClick('/')} className={` block p-4 hover:bg-blue-600`}>Inicio</button>
@@ -59,6 +53,7 @@ function Header() {
                     <button onClick={ () => navigateClick('/biblioteca-digital')} className={` block p-4 hover:bg-blue-600`}>Biblioteca Digital</button>
                 </div>
             )}
+            */}
         </header>
     );
 }

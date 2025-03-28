@@ -25,7 +25,7 @@ function OrdenInterno() {
                             src='reloj.svg' 
                             alt='' 
                             classImage='mx-auto my-4'
-                            classText='text-center font-black text-lg' 
+                            classText='text-center text-black text-lg' 
                             width={50} 
                             height={50} 
                         />
