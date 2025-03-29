@@ -8,15 +8,15 @@ export default function Home() {
   
   const router = useRouter();
   
-  const navigateClick = (route: string) => {
-    router.push(route);
-  }
+  //const navigateClick = (route: string) => {
+  //  router.push(route);
+  //}
   
   return (
     <div>
       <Header />
       <main className="p-2">
-        <p className="text-lg mt-22 italic text-pretty">📌 Bienvenido al sitio web del IPVCE "Carlos Marx" de la provincia de Matanzas.</p>
+        <p className="text-lg mt-22 italic text-pretty">📌 Bienvenido al sitio web del IPVCE Carlos Marx de la provincia de Matanzas.</p>
         
         <h2 className="my-3 text-xl italic">Secciones: </h2>
 

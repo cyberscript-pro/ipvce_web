@@ -6,13 +6,13 @@ function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const router = useRouter();
     
-    const handleClick = () => {
-        setIsOpen(!isOpen);
-    };
+    //const handleClick = () => {
+    //    setIsOpen(!isOpen);
+    //};
 
-    const navigateClick = (route: string) => {
-        router.push(route);
-    }
+    //const navigateClick = (route: string) => {
+    //    router.push(route);
+    //}
 
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-blue-600 text-white shadow-lg">
