@@ -8,10 +8,6 @@ export default function Home() {
   
   const router = useRouter();
   
-  //const navigateClick = (route: string) => {
-  //  router.push(route);
-  //}
-  
   return (
     <div>
       <Header />
