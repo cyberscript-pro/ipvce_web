@@ -1,10 +1,6 @@
-import { useRouter } from 'next/navigation';
-import React, { useState } from 'react'
 import Image from 'next/image';
 
 function Header() {
-    const [isOpen, setIsOpen] = useState<boolean>(false);
-    const router = useRouter();
 
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-blue-600 text-white shadow-lg">
